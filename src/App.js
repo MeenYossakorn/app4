@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; //ต้อง import ทุกครั้ง
+import { Evendata2 } from "./event-data";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Evendata2 />
+    </>
   );
-}
+} //เรียกการตกแต่งมาจาก style.css
 
-export default App;
+export default App; // นำออกมาใช้งาน
